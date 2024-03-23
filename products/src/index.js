@@ -3,8 +3,6 @@ const App = async () => {
   products = await products.json();
   products = products?.products;
 
-  console.log(products);
-
   const productsContainer = document.querySelector(".products-container");
 
   products.forEach((product, index) => {
